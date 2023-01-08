@@ -1,0 +1,28 @@
+/* This container class will allow a table to scroll horizontally on smaller screens. */
+.hscroll {
+    overflow-x: auto; /* Horizontal */
+  }
+  table
+  {
+      border-collapse: collapse;
+  }
+  
+  td
+  {
+      border: solid 2px;
+      border-left: none;
+      border-right: none;
+  }
+  th {
+    border-top: solid 2px;
+  }
+
+  .side {
+    float: left;
+    position: relative;
+    width: 40%;
+    height: 350px;
+    background-color: aquamarine;
+    margin-left: 6em;
+    bottom: 28em;
+  }

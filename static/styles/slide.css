@@ -1,0 +1,227 @@
+body {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+  margin:0 auto;
+  background-color: rgb(253, 253, 253);
+}
+.mySlides {
+  display: none;
+  
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: 600px;
+  margin-top: -1em;
+}
+.slideshow-container {
+  width:100%;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(250, 245, 245);
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  margin: 0 0 10.5em 4em;
+}
+/* Bolder Caption text */
+.text1 {
+  color: #ffffff;
+  font-size: 60px;
+  padding: 2px;
+  margin-bottom: 300px;
+  margin-left: 70px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+.active, .dot:hover {
+  background-color: #111111;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px
+  }
+}
+
+/*Three column div manipulation*/
+ {
+  box-sizing: border-box;
+  width: 100%;
+  float: none;
+  position: relative;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 0px;
+  height: 50%;
+}
+/* step three flow */
+.coln1{
+  margin-left: .7em;
+  margin-right: .7em;
+  box-shadow: 10px 5px 5px rgb(4, 17, 55);
+  float: left;
+  font-size: 30px;
+  align-content: center;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  border-radius: 2%;
+  width: 30%;
+  height: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: ;
+  background: url("../images/musi.jpg");
+  background-size: cover;
+    background-opacity: 20%;
+}
+.coln2{
+  margin-left: .7em;
+  margin-right: .7em;
+  box-shadow: 10px 5px 5px rgb(4, 17, 55);
+  float: left;
+  font-size: 30px;
+  align-content: center;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  border-radius: 2%;
+  width: 30%;
+  height: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: ;
+  background: url("../images/music.jpg");
+  background-size: cover;
+}
+/*Below the 3 column*/
+.down3 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 400px;
+  background-color: none;
+  padding: 5px;
+  bottom: -30em;
+  position: relative;
+  display: block;
+}
+/* This container class will allow a table to scroll horizontally on smaller screens. */
+      .side {
+        float: left;
+        font-size: 30px;
+        align-content: center;
+        color: #f2f2f2;
+        text-align: center;
+        position: relative;
+        border-radius: 5px;
+        bottom: 15em;
+        margin-top: .5em;
+        margin-left: 2em;
+        margin-right: 1em;
+        width: 40%;
+        height: 370px;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: ;
+        background: url("../images/mus.jpg");
+        background-size: cover;
+      }
+      .side1 {
+        float: left;
+        font-size: 30px;
+        align-content: center;
+        color: #f2f2f2;
+        text-align: center;
+        position: relative;
+        border-radius: 50%;
+        bottom: 15em;
+        margin-top: .5em;
+        margin-left: 4em;
+        margin-right: 1em;
+        width: 36%;
+        height: 370px;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: ;
+        background: url("../images/music1.jpg");
+        background-size: cover;
+      }
+
+article {
+  font-size: 20px;
+  padding: 3px;
+  color: rgb(15, 16, 16);
+}

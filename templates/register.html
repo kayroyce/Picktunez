@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="slideshow-container">
+  <div class="">
+    <img src="{{url_for('static', filename='images/slide2.jpg')}}">
+    <div class="text1">Registration!</div>
+  </div>
+</div>
+<div id="sidecoln">
+    <div class="sidebirth">Reg Home</div>
+    <div class="sidebirth">vgtdsarrrsd</div>
+  </div>
+    <div class="regcoln">
+      <div class="regheader">Your Data is save with us</div>
+      <hr>
+      <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+            <div class="social-icons">
+                <img src="../static/images/fb.png">
+                <img src="../static/images/in.jpg">
+                <img src="../static/images/tw.jpg">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter-Password" required>
+                <input type="checkbox" class="check-box"><span>remember password</span>
+                <button type="submit" class="submit-btn">Login In</button>
+            </form>
+    
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="text" class="input-field" placeholder="Re-Enter password" required>
+                <input type="checkbox" class="check-box"><span>I Agree to The Term & Condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+    </div>
+    
+    </div>
+  </div>
+{% endblock %}

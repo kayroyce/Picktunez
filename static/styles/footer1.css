@@ -1,0 +1,133 @@
+footer {
+    width: 100%;
+    height: 348px;
+    background-color: #ababab;
+    position: relative;
+    bottom: -49.5em;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: url("../images/city.jpg");
+    background-size: cover;
+  }
+  .ftab {
+    width: 99%;
+    height: 260px;
+    background-color: none;
+    padding: 2px;
+  }
+  
+  .ftab2 {
+    width: 99%;
+    height: 88px;
+    background-color: none;
+    position: absolute;
+    bottom: .5em;
+  }
+  .ftab3 {
+    width: 21%;
+    height: 210px;
+    background-color: none;
+    float: left;
+    position: relative;
+    margin: 0.5em;
+    bottom: 45em;
+    padding: 0 15px 0 15px;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  span {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+  
+  }
+  /* Address map*/
+  .addmap {
+    width: 43%;
+    height: 210px;
+    background-color: none;
+    float: left;
+    position: relative;
+    bottom: 45em;
+    padding: 10px;
+    margin-left: 3em;
+    margin-top: 1em;
+    border-radius: 5px;
+    background: url("../images/map.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+  }
+  
+  /*base footer*/
+  .foot {
+    width: 100%;
+    height: 60px;
+    background-color: #0d0d0d;
+    position: relative;
+    bottom: -40em;
+    color: #f2f2f2;
+    text-align: left;
+    font-size: 20px;
+    color: antiquewhite;
+    display: flexbox;
+  }
+  h2 {
+    color: aquamarine;
+    text-align: center;
+    text-decoration: double;
+    font-weight: 50;
+    font-family: sans-serif;
+    bottom: 23em;
+    font-size: 20px;
+  }
+  /* Table style */
+  .tb {
+    border-color: aqua;
+    border-top: #ababab;
+    border-bottom: #f2f2f2;
+    width: 14em;
+    height: 10px;
+    align-items: center;
+    column-span: all;
+    row-gap: 1em;
+    text-align: center;
+    align-content: baseline;
+    color: aqua;
+    font-size: 22px;
+    border-collapse: collapse;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    border-top: none;
+    border-bottom: none;
+  }
+  /* footer menubar Table style */
+  .tbb2 {
+    float: left;
+    margin-top: -42em;
+    font-size: 14px;
+    margin-left: -43em;
+    margin-right: 27em;
+    column-span: 3px;
+  }
+
+  h5{
+    float: right;
+    font-size: 14px;
+    width: 30%;
+    margin-top: -42em;
+    font-size: 14px;
+    margin-bottom: 8em;
+    margin-right: 10em;
+  }
+  h3 {
+    color: rgb(16, 17, 17);
+    text-align: center;
+    text-decoration: double;
+    font-weight: 50;
+    font-family: sans-serif;
+    bottom: 23em;
+    font-size: 20px;
+  }
+  

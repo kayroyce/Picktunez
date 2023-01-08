@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/styles/main1.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/register.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/footer1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>PickTUNEZ</title>
+</head>
+<body>
+  <div class="navbar">
+    <div id="logo">PickTUNEZ</div>
+    <div id="menu">
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('career') }}">Career</a></li>
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        <li><a href="{{ url_for('register') }}">Register</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <form action="#">
+          <input type="text" placeholder=" Search" name="search">
+          <button>
+              <i class="fa-search" style="font-size: 14px;">search</i>
+          </button>
+      </form>
+  </div>
+  </div>
+    <div class="">
+        {% block content %} {% endblock %}
+    </div>
+    <footer>
+      <div class="ftab">
+        <div class="addmap"></div>
+        <div class="ftab3">
+          <h2>Lagos Office</h2>
+          <p>120 Azikiwe Street, Adekunle Cresent Lane, Ikeja, Lagos State.</p>
+          <p>+2348030625679</p>
+          <hr>
+          <p><a href="#">GET DIRECTIONS>></a></p>
+        </div>
+        <div class="ftab3">
+          <h2>PHC Office</h2>
+          <p>100 Shell manifold Pipeline, Chrix Avenue, Port Harcourt.</p> 
+          <p>+2348030625945</p>
+          <hr>
+          <p><a href="#">GET DIRECTIONS>></a></p>
+        </div>
+      </div>
+      <div class="ftab2">
+        <h2>Follow us on our Socials</h2>
+        <table class="tb" align="center">
+          <tr>
+            <td>Instagram</td>
+            <td>Facebook</td>
+            <td>Twitter</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
+    <div class="foot">
+      <table class="tbb2" width="23%" align="center">
+        <tr>
+          <td><a href="{{ url_for('home') }}">Home</a></td>
+          <td><a href="{{ url_for('about') }}">About Us</a></td>
+          <td><a href="{{ url_for('career') }}">Career</a></td>
+          <td><a href="{{ url_for('contact') }}">Contact</a></td>
+          <td><a href="{{ url_for('register') }}">Register</a></td>
+        </tr>
+      </table>
+      <h5>All Right Reserved @ 2023</h5>
+    </div>  
+
+    <script type="text/javascript" src="../static/script/reg.js"></script>
+</body>
+</html>
