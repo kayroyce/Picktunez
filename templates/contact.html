@@ -8,8 +8,46 @@
   </div>
 </div>
 <div id="sidecoln">
-  <div class="sidebirth">Reg Home</div>
-  <div class="sidebirth">vgtdsarrrsd</div>
+  <div class="sidebirth">
+    <h3>Lagos Office</h3>
+        <p>120 Azikiwe Street, Adekunle Cresent Lane, Ikeja, Lagos State.</p>
+        <p>+2348030625679</p><br>
+        <hr>
+        <h3>PHC Office</h3>
+        <p>100 Shell manifold Pipeline, Chrix Avenue, Port Harcourt.</p> 
+        <p>+2348030625945</p>
+  </div>
+  <div class="sidebirth"></div>
 </div>
-<div class="regcoln"></div>
+<div class="regcoln">
+  <h3>We Love to hear from you</h3>
+  <hr>
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="Select One">Select Your Region</option>
+        <option value="Nigeria">Nigerian</option>
+        <option value="Non-Nigerian">Non-Nigerian</option>
+      </select>
+  
+      <label for="subject">Comment</label>
+      <textarea id="subject" name="subject" placeholder="Share Your Thoughts with Us" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+      <input type="Reset" value="Reset">
+  
+    </form>
+  </div>
+</div>
 {% endblock %}

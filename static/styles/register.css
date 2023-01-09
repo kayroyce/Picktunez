@@ -29,7 +29,7 @@
   }
   #sidecoln {
     height: 750px;
-    background-color: #ababab;
+    background-color:#faf8f8;
     position: absolute;
     width: 23%;
     border-radius: 8px;
@@ -39,23 +39,26 @@
     padding-top: 20px;
   }
   .sidebirth {
-    height: 350px;
-    background-color: #080808;
+    height: 340px;
+    background-color: none;
     position: relative;
     width: 97%;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
   }
   .regcoln {
     height: 750px;
-    background-color: #ababab;
+    background-color: none;
     position: relative;
     width: 55%;
     float: right;
     border-radius: 8px;
     padding: 5px;
     margin-right: 130px;
+    box-shadow: 1px 1px 1px 10px rgb(4, 16, 41);
   }
   /* Table style */
   .tb {
@@ -91,12 +94,14 @@
   /*register css*/
   .form-box{
     width: 380px;
-    height: 480px;
+    height: 540px;
     position: relative;
     margin: 6% auto;
     background: #fff;
     padding: 5px;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
   }
   .button-box{
     width: 220px;
@@ -121,7 +126,7 @@
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+    background: linear-gradient(to bottom, #478da4 0%, #122448 100%);
     border-radius: 30px;
     transition: .5s;
   }
@@ -162,7 +167,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+    background: linear-gradient(to bottom, #478da4 0%, #122448 100%);
     border:0;
     outline: none;
     border-radius: 30px;

@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   width: 100%;
+  height: 100vh;
   overflow-x: hidden;
   margin:0 auto;
   background-color: rgb(253, 253, 253);
@@ -131,7 +132,7 @@ img {
 .coln1{
   margin-left: .7em;
   margin-right: .7em;
-  box-shadow: 10px 5px 5px rgb(4, 17, 55);
+  box-shadow: 10px 5px 5px rgb(132, 134, 138);
   float: left;
   font-size: 30px;
   align-content: center;
@@ -143,15 +144,32 @@ img {
   height: 450px;
   padding: 10px;
   box-sizing: border-box;
-  background-color: ;
-  background: url("../images/musi.jpg");
+  background: url("../images/art3.jpg");
   background-size: cover;
-    background-opacity: 20%;
 }
 .coln2{
   margin-left: .7em;
   margin-right: .7em;
-  box-shadow: 10px 5px 5px rgb(4, 17, 55);
+  box-shadow: 10px 5px 5px rgb(132, 134, 138);
+  float: left;
+  font-size: 30px;
+  align-content: center;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  border-radius: 2%;
+  width: 30%;
+  height: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(56, 7, 56, 0.602);
+  background: url("../images/art6.jpg");
+  background-size: cover;
+}
+.coln3{
+  margin-left: .7em;
+  margin-right: .7em;
+  box-shadow: 10px 5px 5px rgb(132, 134, 138);
   float: left;
   font-size: 30px;
   align-content: center;
@@ -164,7 +182,7 @@ img {
   padding: 10px;
   box-sizing: border-box;
   background-color: ;
-  background: url("../images/music.jpg");
+  background: url("../images/p1.jpg");
   background-size: cover;
 }
 /*Below the 3 column*/
@@ -195,9 +213,8 @@ img {
         height: 370px;
         padding: 10px;
         box-sizing: border-box;
-        background-color: ;
-        background: url("../images/mus.jpg");
-        background-size: cover;
+        background-color: none;
+        box-shadow: 1px 1px 1px 5px rgb(213, 234, 242);
       }
       .side1 {
         float: left;
@@ -218,6 +235,7 @@ img {
         background-color: ;
         background: url("../images/music1.jpg");
         background-size: cover;
+        box-shadow: 10px 5px 5px rgb(132, 134, 138);
       }
 
 article {
