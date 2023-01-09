@@ -47,8 +47,45 @@
     box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
     border-radius: 8px;
     margin-bottom: 20px;
-    
   }
+
+  .sidebirth1 {
+    height: 340px;
+    background-color: none;
+    position: relative;
+    width: 97%;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url("../images/as.jpg");
+    background-size: cover;
+  }
+  .sidebirth2 {
+    height: 340px;
+    background-color: none;
+    position: relative;
+    width: 97%;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url("../images/art4.jpg");
+    background-size: cover;
+  }
+  .sidebirth3 {
+    height: 340px;
+    background-color: none;
+    position: relative;
+    width: 97%;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 5px rgb(4, 16, 41);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url("../images/art3.jpg");
+    background-size: cover;
+  }
+
   .regcoln {
     height: 750px;
     background-color: none;
